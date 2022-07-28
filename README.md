@@ -27,7 +27,7 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 Esse é o primeiro projeto da Laboratoria SAP008. Nele o usuário
 poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
 
-O tema escolhida foi a segurança de senhas corporativas. Para que os usuários consigam 
+O tema escolhida foi a segurança de senhas corporativas, para que os usuários consigam 
 deixar as senhas usadas diariamente mais seguras.
 
 As ferramentas utilizadas nesse  projeto foram HTML, CSS e JavaScript
