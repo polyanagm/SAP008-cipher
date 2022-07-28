@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+   
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <div id="caixatitle">
+      <h1 id="title">SEG BANK!</h1>
+      <h2>Use o campo abaixo para deixar sua senha corporativa mais segura!&#x1F512;</h2>
+      <h3>- Lembre-se que para senhas corporativas, usamos apenas letras maiúsculas.</h3>
+    </div>
+<br>
+    <div id="caixa">
+      <label><textarea type="text" id="senha" placeholder="Escreva sua senha aqui."></textarea> </label>
+      <br>
+      <br>
+      <button id="codifica"> Codificar</button>
+      <button id="decodifica"> Decodificar</button>
+      <input type="number" id="deslocamento" min="0" max="50">
+      <br>
+      <br>
+      <label>
+      <textarea type="text" rows="4" cols="50" id="senhapronta" placeholder="Sua senha criptografada irá aparecer aqui."></textarea>
+      </label>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

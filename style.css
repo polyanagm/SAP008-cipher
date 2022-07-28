@@ -1,0 +1,67 @@
+html body{
+  
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-image: url("https://blog.milvus.com.br/wp-content/uploads/ciberseguranca-o-que-e-3.jpg");
+    background-size: cover;
+}
+#caixatitle {
+ background-color: rgb(238, 94, 11);
+ width: 50%;
+ height: 50%;
+ margin: auto;
+ padding: 1rem 5rem;
+ border-radius: 1rem;
+}
+ #title{
+    font-family: "Patua One";
+    color: blue;
+   }
+
+
+#caixa{
+ background-color: rgb(238, 94, 11);
+ padding: 5rem 5rem;
+ border-radius: 1rem;
+ border: 0;
+ margin: auto;
+ height: 50%;
+ width: 50%;
+}
+
+#senha{
+    text-align: center;
+}
+
+#codifica {
+    text-align: center;
+    background-color: blue;
+    font-family: "Potta One";
+    color: white;
+    border-radius: 0.25rem;
+}
+
+#decodifica {
+    text-align: center;
+    background-color: blue;
+    font-family: "Potta One";
+    color: white;
+    border-radius: 0.25rem;
+
+}
+
+#deslocamento{
+    text-align: center;
+    background-color: blue;
+}
+
+#senhapronta{
+    text-align: center;
+    bottom: 400px;
+}
+#teste{
+    color: aqua;
+}
