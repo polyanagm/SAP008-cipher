@@ -47,7 +47,7 @@ As ferramentas utilizadas nesse  projeto foram HTML, CSS e JavaScript
 
 ![image](https://user-images.githubusercontent.com/98547636/181409998-c3a4a4be-012c-44c4-b082-27ba47e7f93b.png)
 
-- [U+FE0F] **Uso de seletores de CSS**
+- [✔️] **Uso de seletores de CSS**
 
 - [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
 
