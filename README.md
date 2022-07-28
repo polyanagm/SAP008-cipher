@@ -1,4 +1,4 @@
-# Cifra de César
+# Deixe sua senha corporativa segura com a Cifra de César!
 
 ## Índice
 
@@ -33,57 +33,21 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 * Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 * Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 * A letra A será D
-* A palavra CASA será FDVD
-
-Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunicação por si mesma,
-mas a cifra de César muitas vezes pode fazer parte de um sistema
-mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
+* A palavra SENHA será VHQKD
 
 ## 2. Resumo do projeto
 
-Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
+Esse é o primeiro projeto da Laboratoria SAP008. Nele o usuário
 poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
 
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
+O tema escolhida foi a segurança de senhas corporativas. Para que os usuários consigam 
+deixar as senhas usadas diariamente mais seguras.
 
-* Criar senhas seguras para email.
-* Cifrar cartões de crédito.
-* Ferramenta de mensagens internas de uma organização
-  em uma zona de conflito.
-* Mensagens secretas para alguma pessoa.
+As ferramentas utilizadas nesse  projeto foram HTML, CSS e JavaScript
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
+![image](https://user-images.githubusercontent.com/98547636/181409998-c3a4a4be-012c-44c4-b082-27ba47e7f93b.png)
 
-## 3. Objetivos de aprendizagem
-
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
-
-### HTML
-
-- [ ] **Uso de HTML semântico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de seletores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
+- [U+FE0F] **Uso de seletores de CSS**
 
 - [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
 
@@ -98,7 +62,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### Web APIs
 
-- [ ] **Uso de seletores de DOM**
+- [U+FE0F ] **Uso de seletores de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -107,7 +71,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
-- [ ] **Manipulação de eventos de DOM**
+- [U+FE0F ] **Manipulação de eventos de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -117,7 +81,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
 </p></details>
 
-- [ ] **Manipulação dinâmica de DOM**
+- [U+FE0F ] **Manipulação dinâmica de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -138,7 +102,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Valores Primitivos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ ] **Strings (cadeias de caracteres)**
+- [U+FE0F ] **Strings (cadeias de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -146,7 +110,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [String - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ ] **Variáveis (declaração, atribuição, escopo)**
+- [U+FE0F ] **Variáveis (declaração, atribuição, escopo)**
 
   <details><summary>Links</summary><p>
 
@@ -154,7 +118,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/02-variables)
 </p></details>
 
-- [ ] **Uso de condicionais (if-else, switch, operador ternário)**
+- [U+FE0F ] **Uso de condicionais (if-else, switch, operador ternário)**
 
   <details><summary>Links</summary><p>
 
@@ -162,7 +126,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de laços (for, for..of, while)**
+- [U+FE0F ] **Uso de laços (for, for..of, while)**
 
   <details><summary>Links</summary><p>
 
@@ -170,7 +134,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [ ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
+- [U+FE0F ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
 
   <details><summary>Links</summary><p>
 
