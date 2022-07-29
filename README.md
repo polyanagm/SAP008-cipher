@@ -32,7 +32,7 @@ deixar as senhas usadas diariamente mais seguras.
 
 As ferramentas utilizadas nesse  projeto foram HTML, CSS e JavaScript
 
-![image](https://user-images.githubusercontent.com/98547636/181409998-c3a4a4be-012c-44c4-b082-27ba47e7f93b.png)
+![image](https://user-images.githubusercontent.com/98547636/181814484-9686afa1-4747-44f0-932d-db901380e2c5.png)
 
 - [✔️] **Uso de seletores de CSS**
 
@@ -68,4 +68,7 @@ As ferramentas utilizadas nesse  projeto foram HTML, CSS e JavaScript
 
 - [✔️] **GitHub: Implantação com GitHub Pages**
 
+## 3. Acesse o projeto pelo link abaixo
+
+ https://polyanagm.github.io/SAP008-cipher
 
