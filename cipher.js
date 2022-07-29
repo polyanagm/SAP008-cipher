@@ -10,8 +10,8 @@ function encode(offset, mensagem) {
   }
   let newText = ""
   for (let i = 0; i < mensagem.length; i++) {
-    let codifica = ((mensagem[i].charCodeAt(0) - 65 + offset) %26) + 65;
-    let textoPronto = String.fromCharCode(codifica);
+    const codifica = ((mensagem[i].charCodeAt(0) - 65 + offset) %26) + 65;
+    const textoPronto = String.fromCharCode(codifica);
     newText += textoPronto;
   }  
   return newText;
@@ -27,8 +27,8 @@ function decode(offset,mensagem) {
   }
   let newText = ""
   for (let i = 0; i < mensagem.length; i++) {
-   let decodifica = (mensagem.charCodeAt(i) - 90 - offset) %26 + 90;
-   let textoPronto = String.fromCharCode(decodifica);
+   const decodifica = (mensagem.charCodeAt(i) - 90 - offset) %26 + 90;
+   const textoPronto = String.fromCharCode(decodifica);
    newText += textoPronto;
  }
  return newText;

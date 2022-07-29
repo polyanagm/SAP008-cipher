@@ -20,8 +20,8 @@ function checkChar(e) {
 function codifica(){
      let senha = document.getElementById("senha").value
      senha = senha.toUpperCase()
-     let deslocamento = parseInt(document.getElementById("deslocamento").value);
-     let resultado = cipher.encode(deslocamento, senha);
+     const deslocamento = parseInt(document.getElementById("deslocamento").value);
+     const resultado = cipher.encode(deslocamento, senha);
      document.getElementById("senhapronta").innerHTML = "Sua senha codificada/decodificada irá aparecer aqui: " + '"' + resultado + '"'
 }
  
@@ -30,8 +30,8 @@ document.getElementById("codifica").addEventListener("click", codifica);
 function decode(){
      let senha = document.getElementById("senha").value
      senha = senha.toUpperCase()
-     let deslocamento = parseInt(document.getElementById("deslocamento").value);
-     let resultado = cipher.decode(deslocamento,senha);
+     const deslocamento = parseInt(document.getElementById("deslocamento").value);
+     const resultado = cipher.decode(deslocamento,senha);
      document.getElementById("senhapronta").innerHTML = "Sua senha codificada/decodificada irá aparecer aqui: " + '"' + resultado + '"'
 }
 

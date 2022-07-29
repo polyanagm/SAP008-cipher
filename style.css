@@ -32,36 +32,36 @@ html body{
  width: 50%;
 }
 
-#senha{
+.cxsenha{
     text-align: center;
+    height: 25%;
+    width: 50%;
 }
 
-#codifica {
-    text-align: center;
-    background-color: blue;
-    font-family: "Potta One";
-    color: white;
-    border-radius: 0.25rem;
-}
-
-#decodifica {
+.codificabtn {
     text-align: center;
     background-color: blue;
     font-family: "Potta One";
     color: white;
     border-radius: 0.25rem;
+}
+
+.decodificabtn {
+    text-align: center;
+    background-color: blue;
+    font-family: "Potta One";
+    color: white;
+    border-radius: 0.25rem;
 
 }
 
-#deslocamento{
+.deslocamentobtn{
     text-align: center;
     background-color: blue;
 }
 
-#senhapronta{
+.cxsenhapronta{
     text-align: center;
-    bottom: 400px;
-}
-#teste{
-    color: aqua;
+    height: 200%;
+    width: 50%;
 }
